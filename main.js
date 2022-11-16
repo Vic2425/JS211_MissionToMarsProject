@@ -21,7 +21,7 @@ class CrewMember {
   // making sure CrewMember can enterShip()
   enterShip(ship) {
     this.ship = ship;
-    // use push to push the CrewMember to make CrewMember enter the ship
+    // use push to add member into the ship
     this.ship.crew.push(this);
   }
 }
